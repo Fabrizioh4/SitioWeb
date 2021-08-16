@@ -1,0 +1,51 @@
+body{
+    color: white;
+    margin: 0;
+    background-color:black;
+}
+
+.header-container .logo{
+    width: 200px;
+    height: 200px;
+
+}
+.header::after{
+    content: '';
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/showcase2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: block;
+}
+.header-container{
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 50%;
+    margin-top: 100px;
+    margin-left: -145px ;
+    text-align: center;
+    width: 300px;
+}
+
+.section{
+    text-align: center;
+}
+.container{
+    width: 50%;
+    margin:auto;
+}
+
+footer{
+    margin: 2.2rem;
+}
+li{
+    list-style: none;
+}
+
+a {
+    color:white;
+    
+}
+
